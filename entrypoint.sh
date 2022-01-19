@@ -64,3 +64,5 @@ trap 'remove; exit 143' TERM
 
 wait $!
 
+echo "finished"
+remove
